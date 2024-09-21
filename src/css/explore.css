@@ -1,0 +1,129 @@
+* {
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../gilroy/Gilroy-Bold.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy-Light';
+    src: url('../gilroy/Gilroy-Medium.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.text-paragraph {
+    font-family: 'Gilroy-Light';
+    color: gray;
+
+}
+
+.travel-text {
+    font-size: 4.2rem;
+
+    font-family: 'Gilroy';
+}
+
+
+.started-button {
+    background-color: rgb(59 65 163);
+    width: 8rem;
+    color: white;
+    font-size: 14px;
+    border: none;
+    border-radius: 35px;
+    transition: 0.7s;
+    padding: 12px;
+}
+
+.started-button:hover {
+    border: 1px solid rgb(90 95 188);
+    background-color: transparent;
+    color: black;
+}
+
+
+.watch-button {
+    border: 1px solid rgb(178, 178, 184);
+    background-color: transparent;
+    width: 10rem;
+    color: rgb(6, 1, 1);
+    font-size: 14px;
+    border-radius: 35px;
+    transition: 0.7s;
+    padding: 12px;
+}
+
+.watch-button:hover {
+    border: 1px solid rgb(90 95 188);
+    background-color: rgb(90 95 188);
+    color: white;
+}
+
+.img-frame16 .frame16 {
+    position: relative;
+    bottom: 8px;
+    mix-blend-mode: darken;
+    z-index: 1;
+
+}
+
+
+.img-frame18 .frame18 {
+    border-radius: 90px;
+    position: relative;
+    bottom: 190px;
+    left: 180px;
+    z-index: 1;
+
+}
+
+
+@media (min-width: 769px) and (max-width: 991px) {
+    .text-paragraph {
+        font-size: 1rem;
+      
+        justify-content: center;
+       
+    }
+    .travel-text {
+        font-size: 2rem;
+    }
+}
+
+
+
+@media (max-width: 768px) {  
+
+    .text-paragraph {
+        font-size: 1rem;
+      
+        justify-content: center;
+       
+    }
+    .travel-text {
+        font-size: 2rem;
+    }
+
+    .started-button {
+        width: 17rem;
+
+    }
+
+    .watch-button {
+        width: 17rem;
+    }
+
+    .landing-button-medium {
+        display: block;
+      
+    }
+
+}
+
+
