@@ -1,0 +1,27 @@
+
+
+@font-face {
+    font-family: 'Gilroy-Light';
+    src: url('../gilroy/Gilroy-Medium.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.destination-container {
+
+    font-family: 'Gilroy-Light';
+}
+
+
+.left-right-arrow  {
+    width: 6rem;
+    height: 5rem;
+}
+
+
+.dollar {
+    color: rgb(216 105 201);
+    font-weight: bold;
+    font-family: 'Gilroy-Light';
+}

@@ -125,5 +125,8 @@
     }
 
 }
-
+.img-translate:hover  {
+    cursor: pointer;
+    rotate: 4deg;
+}
 

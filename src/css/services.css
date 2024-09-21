@@ -1,0 +1,41 @@
+
+
+@font-face {
+    font-family: 'Gilroy-Light';
+    src: url('../gilroy/Gilroy-Medium.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.service-container {
+    max-width: 280px;
+    width: 20rem;
+    font-family: 'Gilroy-Light';
+}
+
+.services-header {
+    font-weight: 600;
+    font-size: 1.35rem;
+    letter-spacing: 3px;
+    color: rgb(216 105 201);
+}
+
+.services-paragraph {
+    font-weight: 800;
+    font-size: 2rem;
+}
+
+
+.service-card:hover  {
+    transform: scale(1.05); 
+    box-shadow: inset;
+    
+}
+
+.service-card {
+    max-width: 280px; /* Adjust this value to make it smaller */
+    padding: 1.5rem; /* Adjust padding as needed */
+  }
+  
+  

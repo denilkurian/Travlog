@@ -24,20 +24,20 @@ function Explore() {
 
 
                         <div className="flex flex-row items-center" style={rose}>
-                            <h6 className="ml-10">Explore the world! &nbsp;</h6>
-                            <img style={{ width: '2rem' }} src={work} alt="work icon" />
+                            <p className="ml-10"><b>Explore the world!</b> &nbsp;</p>
+                            <img style={{ width: '1.6rem' }} src={work} alt="work icon" />
                         </div>
 
 
 
                         <b>
-                            <h1 className="travel-text text-1xl font-bold py-7">
+                            <h1 data-aos="fade-up" data-aos-easing="ease-in-out-quad" data-aos-duration="500" data-aos-delay="300" className="travel-text text-1xl font-bold py-7">
                                 Travel <span style={rose}>top destination</span> of the world
                             </h1>
                         </b>
 
                         <br />  <br />
-                        <h5 className='text-paragraph text-lg py-7'>We always make our customer happy by providing as many choices as possible.</h5>
+                        <h5 data-aos="fade-in" data-aos-easing="ease-in-out-quad" data-aos-duration="500" data-aos-delay="300" className='text-paragraph text-lg py-7'>We always make our customer happy by providing as many choices as possible.</h5>
 
                         <br /><br />
 
