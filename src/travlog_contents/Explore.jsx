@@ -31,7 +31,7 @@ function Explore() {
 
 
                         <b>
-                            <h1 data-aos="fade-up" data-aos-easing="ease-in-out-quad" data-aos-duration="500" data-aos-delay="300" className="travel-text text-1xl font-bold py-7">
+                            <h1 data-aos="fade-up" data-aos-easing="ease-in-out-quad" data-aos-duration="800" data-aos-delay="300" className="travel-text text-1xl font-bold py-7">
                                 Travel <span style={rose}>top destination</span> of the world
                             </h1>
                         </b>
