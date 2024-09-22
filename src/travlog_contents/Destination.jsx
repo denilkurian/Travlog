@@ -41,7 +41,7 @@ function Destination() {
 
                 <div className="flex flex-wrap md:gap-9 lg:gap-12">
 
-                    <div className="w-full sm:w-1/2 sm:mr-7 md:w-1/4 lg:w-3/12 bg-white border border-gray-200 rounded-2xl shadow dark:bg-gray-800 dark:border-gray-700 mb-6"> {/* Add mb-6 for space in mobile */}
+                    <div data-aos="zoom-in" data-aos-easing="ease-in-out-quad" data-aos-duration="500" data-aos-delay="100"  className="w-full sm:w-1/2 sm:mr-7 md:w-1/4 lg:w-3/12 bg-white border border-gray-200 rounded-2xl shadow dark:bg-gray-800 dark:border-gray-700 mb-6"> {/* Add mb-6 for space in mobile */}
                         <a href="#">
                             <img className="w-full lg:w-4/4" src={beach} alt="" />
                         </a>
@@ -55,7 +55,7 @@ function Destination() {
                         </div>
                     </div>
 
-                    <div className="w-full sm:w-1/2 sm:mr-7 md:w-1/4 lg:w-3/12 bg-white border border-gray-200 rounded-2xl shadow dark:bg-gray-800 dark:border-gray-700 mb-6"> {/* Add mb-6 for space in mobile */}
+                    <div data-aos="zoom-in" data-aos-easing="ease-in-out-quad" data-aos-duration="500" data-aos-delay="300"  className="w-full sm:w-1/2 sm:mr-7 md:w-1/4 lg:w-3/12 bg-white border border-gray-200 rounded-2xl shadow dark:bg-gray-800 dark:border-gray-700 mb-6"> {/* Add mb-6 for space in mobile */}
                         <a href="#">
                             <img className="w-full" src={ocean} alt="" />
                         </a>
@@ -69,7 +69,7 @@ function Destination() {
                         </div>
                     </div>
 
-                    <div className="w-full sm:w-1/2 sm:mr-7 md:w-1/4 lg:w-3/12 bg-white border border-gray-200 rounded-2xl shadow dark:bg-gray-800 dark:border-gray-700 mb-6"> {/* Add mb-6 for space in mobile */}
+                    <div data-aos="zoom-in" data-aos-easing="ease-in-out-quad" data-aos-duration="500" data-aos-delay="600"   className="w-full sm:w-1/2 sm:mr-7 md:w-1/4 lg:w-3/12 bg-white border border-gray-200 rounded-2xl shadow dark:bg-gray-800 dark:border-gray-700 mb-6"> {/* Add mb-6 for space in mobile */}
                         <a href="#">
                             <img className="w-full" src={mountain} alt="" />
                         </a>

@@ -16,12 +16,12 @@ const Services = () => {
 
                     <div className="flex flex-wrap gap-0 w-full ">
 
-                    <div className="service-container w-full text-center items-center lg:text-left ">
+                    <div className="service-container lg:w-1/5 text-center items-center lg:text-left ">
                             <h1 className='services-header mb-3'>SERVICES</h1>
                             <h1 className='services-paragraph'>Our top value categories for you </h1>
                         </div>
 
-                        <div className="service-card bg-white rounded-lg shadow-lg w-full sm:max-w-xs sm:mr-5 md:w-2/4 lg:w-1/4 text-center border-2 rounded-2xl flex-shrink-0 mb-6 mx-auto">
+                        <div className="service-card bg-white rounded-lg shadow-lg w-full sm:max-w-xs sm:mr-5  lg:w-1/4 text-center border-2 rounded-2xl flex-shrink-0 mb-6 mx-auto">
                             <img className="w-16 h-16 mx-auto rounded-full m-8" src={destination} alt="Card image" />
                             <h3 className="text-xl font-semibold mt-4 m-6">Best Tour Guide</h3>
                             <p className="mt-2 text-gray-600 m-9">

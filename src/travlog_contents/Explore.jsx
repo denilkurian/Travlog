@@ -20,15 +20,12 @@ function Explore() {
 
                 <div className="flex flex-col-reverse lg:flex-row  flex-wrap">
 
-                    <div className="lg:w-5/12 landing-medium flex flex-col items-center md:items-start lg:items-start py-20">
-
+                    <div className="lg:w-5/12 landing-medium flex flex-col items-center md:items-center lg:items-start py-20">
 
                         <div className="flex flex-row items-center" style={rose}>
                             <p className="ml-10"><b>Explore the world!</b> &nbsp;</p>
                             <img style={{ width: '1.6rem' }} src={work} alt="work icon" />
                         </div>
-
-
 
                         <b>
                             <h1 data-aos="fade-up" data-aos-easing="ease-in-out-quad" data-aos-duration="800" data-aos-delay="300" className="travel-text text-1xl font-bold py-7">
@@ -50,10 +47,7 @@ function Explore() {
                         </div>
                     </div>
 
-                    {/* <div className='w-full md:w-1/12'>
-
-                        </div> */}
-
+                 
 
                     <div className="flex flex-col items-center ">
 
@@ -62,16 +56,16 @@ function Explore() {
                         <div className='flex flex-wrap mt-0'>
                             <div className='w-6/12 pr-6 '>
                                 <div className='img-frame16'>
-                                    <img data-aos="fade-down" data-aos-easing="ease-in-out-quad" data-aos-duration="700" data-aos-delay="300"  className="w-60 img-translate" src={rectangle1} />
+                                    <img data-aos="fade-down" data-aos-easing="ease-in-out-quad" data-aos-duration="700" data-aos-delay="300" className="w-60 img-translate" src={rectangle1} />
                                     <img className="w-16 frame16" src={frame16} />
                                 </div>
 
-                                <img data-aos="fade-up" data-aos-easing="ease-in-out-quad" data-aos-duration="500" data-aos-delay="300"  className="w-60 img-translate" src={rectangle2} />
+                                <img data-aos="fade-up" data-aos-easing="ease-in-out-quad" data-aos-duration="500" data-aos-delay="300" className="w-60 img-translate" src={rectangle2} />
                             </div>
                             <div className='w-6/12'>
                                 <br /> <br />
                                 <div className='img-frame18'>
-                                    <img data-aos="fade-left" data-aos-easing="ease-in-out-quad" data-aos-duration="500" data-aos-delay="300"  className="w-60 img-translate" src={rectangle3} />
+                                    <img data-aos="fade-left" data-aos-easing="ease-in-out-quad" data-aos-duration="500" data-aos-delay="300" className="w-60 img-translate" src={rectangle3} />
                                     <img className="w-20 frame18" src={frame18} />
 
                                 </div>
@@ -82,7 +76,7 @@ function Explore() {
                 </div>
 
             </div>
-            <br/> <br/>
+            <br /> <br />
 
 
         </>

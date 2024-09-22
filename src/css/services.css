@@ -8,11 +8,7 @@
 }
 
 
-.service-container {
-    max-width: 280px;
-    width: 20rem;
-    font-family: 'Gilroy-Light';
-}
+
 
 .services-header {
     font-weight: 600;
@@ -24,6 +20,7 @@
 .services-paragraph {
     font-weight: 800;
     font-size: 2rem;
+    font-family: 'Gilroy-Light';
 }
 
 
