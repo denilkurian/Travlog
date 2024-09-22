@@ -57,7 +57,7 @@ const Navbar = () => {
                     <button className="signup-button">Sign Up</button>
                 </div>
             )}
-            <br /> <br />
+           
         </nav>
 
     );

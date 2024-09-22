@@ -47,11 +47,11 @@ function Explore() {
                         </div>
                     </div>
 
-                 
 
-                    <div className="flex flex-col items-center ">
 
-                        <img style={{ width: '40rem' }} className="w-80" src={layer} />
+                    <div className="flex flex-col items-center">
+
+                        <img style={{ width: '40rem' }} className="w-80 airplane-image" src={layer} />
 
                         <div className='flex flex-wrap mt-0'>
                             <div className='w-6/12 pr-6 '>

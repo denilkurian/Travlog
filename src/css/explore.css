@@ -17,6 +17,13 @@
 }
 
 
+
+.airplane-image {
+    position: relative;
+    top: 7%;
+    z-index: -1;
+}
+
 .text-paragraph {
     font-family: 'Gilroy-Light';
     color: gray;
@@ -87,10 +94,11 @@
 @media (min-width: 769px) and (max-width: 991px) {
     .text-paragraph {
         font-size: 1rem;
-      
+
         justify-content: center;
-       
+
     }
+
     .travel-text {
         font-size: 2rem;
     }
@@ -98,14 +106,15 @@
 
 
 
-@media (max-width: 768px) {  
+@media (max-width: 768px) {
 
     .text-paragraph {
         font-size: 1rem;
-      
+
         justify-content: center;
-       
+
     }
+
     .travel-text {
         font-size: 2rem;
     }
@@ -121,12 +130,12 @@
 
     .landing-button-medium {
         display: block;
-      
+
     }
 
 }
-.img-translate:hover  {
+
+.img-translate:hover {
     cursor: pointer;
     rotate: 4deg;
 }
-
