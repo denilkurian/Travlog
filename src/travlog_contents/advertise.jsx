@@ -5,7 +5,6 @@ import booking from '../images/Group(2).jpg'
 import orbits from '../images/Group 3.jpg'
 
 
-
 const Advertise = () => {
 
     const imgwidth = { width: '9rem', height: '2rem' }

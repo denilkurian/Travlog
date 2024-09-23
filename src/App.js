@@ -1,6 +1,3 @@
-import logo from './logo.svg';
-import './App.css';
-
 import Navbar from './travlog_contents/Navbar';
 import Explore from './travlog_contents/Explore';
 import Advertise from './travlog_contents/advertise';
@@ -11,10 +8,9 @@ import Features from './travlog_contents/Key_features';
 import Footer from './travlog_contents/Footer';
 
 function App() {
+
   return (
-
     <div className="App">
-
       <Navbar />
       <Explore />
       <Advertise />
@@ -23,9 +19,6 @@ function App() {
       <TravelPoint />
       <Features />
       <Footer />
-
-
-
     </div>
   );
 }

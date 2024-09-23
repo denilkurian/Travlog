@@ -11,7 +11,6 @@ const Features = () => {
 
     return (
         <>
-
             <br /><br /><br /><br /><br /><br />
             <div className="flex lg:flex-row flex-col-reverse  flex-wrap mx-auto px-4 sm:px-6 lg:px-8 max-w-9xl gap-12">
 
@@ -23,8 +22,8 @@ const Features = () => {
 
                     <div className="flex flex-row flex-wrap gap-3 mt-0 py-6">
                         <img data-aos="fade-up" data-aos-easing="ease-in-out-quad" data-aos-duration="500" data-aos-delay="200" className='mx-auto lg:w-4/5' src={offer} alt="Holiday Ad 1" />
-                        <img data-aos="fade-up" data-aos-easing="ease-in-out-quad" data-aos-duration="500" data-aos-delay="400" className='mx-auto lg:w-4/5' src={shedule} alt="Holiday Ad 1" />
-                        <img data-aos="fade-up" data-aos-easing="ease-in-out-quad" data-aos-duration="500" data-aos-delay="600" className='mx-auto lg:w-4/5' src={discount} alt="Holiday Ad 1" />
+                        <img data-aos="fade-up" data-aos-easing="ease-in-out-quad" data-aos-duration="500" data-aos-delay="400" className='mx-auto lg:w-4/5' src={shedule} alt="Holiday Ad 2" />
+                        <img data-aos="fade-up" data-aos-easing="ease-in-out-quad" data-aos-duration="500" data-aos-delay="600" className='mx-auto lg:w-4/5' src={discount} alt="Holiday Ad 3" />
                     </div>
                 </div>
 

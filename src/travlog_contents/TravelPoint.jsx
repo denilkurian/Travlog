@@ -27,12 +27,12 @@ const TravelPoint = () => {
                     <img data-aos="zoom-in" data-aos-easing="ease-in-out-quad" data-aos-duration="500" data-aos-delay="600" className='coupon mx-auto' src={coupon} alt="Coupon" />
 
                     <div className="flex flex-row flex-wrap gap-3 mt-0">
-                    <img data-aos="fade-right" data-aos-easing="ease-in-out-quad" data-aos-duration="500" data-aos-delay="600" className='mx-auto lg:w-2/5' src={holiday_ad} alt="Holiday Ad 1" />
-                        <img data-aos="fade-left" data-aos-easing="ease-in-out-quad" data-aos-duration="500" data-aos-delay="600" className='mx-auto lg:w-2/5' src={holiday_ad} alt="Holiday Ad 2" />
+                        <img data-aos="fade-right" data-aos-easing="ease-in-out-quad" data-aos-duration="500" data-aos-delay="600" className='mx-auto lg:w-2/5' src={holiday_ad} alt="Holiday Ad 1" />
+                        <img data-aos="fade-left" data-aos-easing="ease-in-out-quad" data-aos-duration="500" data-aos-delay="600" className='mx-auto lg:w-2/5' src={hotel_ad} alt="Holiday Ad 2" />
                         <img data-aos="fade-right" data-aos-easing="ease-in-out-quad" data-aos-duration="500" data-aos-delay="600" className='mx-auto lg:w-2/5 ' src={airlines_ad} alt="Holiday Ad 3" />
                         <img data-aos="fade-left" data-aos-easing="ease-in-out-quad" data-aos-duration="500" data-aos-delay="600" className='mx-auto lg:w-2/5 ' src={customer_ad} alt="Holiday Ad 4" />
 
-             
+
                     </div>
                 </div>
 

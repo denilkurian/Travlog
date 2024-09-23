@@ -3,11 +3,11 @@
     src: url('../gilroy/Gilroy-Medium.ttf') format('opentype');
     font-weight: normal;
     font-style: normal;
-  }
+}
 
 .nav-font {
     font-family: 'Gilroy-nav';
-    
+
 }
 
 .signup-button {
@@ -29,4 +29,3 @@
 .vector-img {
     width: 35px;
 }
-

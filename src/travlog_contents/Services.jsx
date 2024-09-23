@@ -4,8 +4,6 @@ import destination from '../images/destination 1.jpg'
 import '../css/services.css';
 
 
-
-
 const Services = () => {
 
     return (

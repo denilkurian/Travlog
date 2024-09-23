@@ -7,6 +7,8 @@ import rectangle3 from '../images/Rectangle 3.jpg';
 import circle from '../images/play-circle.5 1.jpg';
 import frame16 from '../images/Frame 16.jpg'
 import frame18 from '../images/Frame 18.jpg'
+import frame17 from '../images/Frame 17.png'
+
 
 
 function Explore() {
@@ -67,6 +69,7 @@ function Explore() {
                                 <div className='img-frame18'>
                                     <img data-aos="fade-left" data-aos-easing="ease-in-out-quad" data-aos-duration="500" data-aos-delay="300" className="w-60 img-translate" src={rectangle3} />
                                     <img className="w-20 frame18" src={frame18} />
+                                    <img className="w-16 " src={frame17} />
 
                                 </div>
                             </div>
