@@ -12,10 +12,10 @@ const Navbar = () => {
         setIsNavOpen(!isNavOpen);
     };
 
-    
+
     return (
         <nav className="bg-white border-gray-200 nav-font">
-            <div className="container mx-auto px-6  flex justify-between items-center py-6  max-w-7xl">
+            <div className="container mx-auto px-6  flex justify-between items-center py-6 max-w-7xl">
                 <div className="ml-4 text-xl font-bold flex gap-3">
                     <img className="vector-img" src={vector} alt="Logo" />
                     <p>Travlog</p>
@@ -56,7 +56,7 @@ const Navbar = () => {
                     <button className="signup-button">Sign Up</button>
                 </div>
             )}
-           
+
         </nav>
 
     );
